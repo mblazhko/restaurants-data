@@ -27,7 +27,6 @@ class JustEatClient:
                         "Cuisines": [
                             name["Name"] for name in place.get("Cuisines")
                         ],
-                        "postcode": place.get("Postcode")
                     }
                     restaurants.append(restaurant)
 
